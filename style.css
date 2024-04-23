@@ -1,0 +1,101 @@
+/* * {
+  font-family: "Young Serif", serif;
+  font-size: 12px;
+} */
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  width: 600px;
+  /* height:400px; */
+  margin: 5em;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  border: none;
+  padding: 30px;
+}
+.img {
+  width: 100%;
+  border-radius: 20px;
+}
+.para {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 5px;
+  /* margin-bottom: 50px; */
+}
+.head {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  margin-left: 10px;
+}
+/* .list-item::before{
+ content:"*";
+ font-size: 20px;
+} */
+.list-item {
+  padding: 7px;
+  list-style: disc;
+}
+h2 {
+  /* margin-block: .5em; */
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+  margin-left: 13px;
+}
+.ingre {
+  margin-top: 45px;
+}
+.list-item::marker {
+  color: hsl(332, 51%, 32%);
+}
+.list-item2 {
+  padding: 7px;
+  line-height: 20px;
+}
+.list-item2::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: 900;
+}
+.cal {
+  display: flex;
+  /* gap: 150px; */
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin-left: 30px;
+  /* justify-content: space-around;  */
+  /* justify-content: space-evenly; */
+}
+.nutri {
+  padding: 10px;
+}
+.cal-num,.nut-name{
+width:50%
+}
+.img-div{
+  width: 100%;
+}
+@media screen and (max-width:375px){
+.container{
+  padding: 0;
+  border-radius: 0;
+}
+.img{
+  border-radius: 0;
+}
+}
+
